@@ -3,23 +3,81 @@
 // Super small header above the content for site name and short description.
 
 .masthead {
-  padding-top:    1rem;
-  padding-bottom: 1rem;
-  margin-bottom: 3rem;
+    min-height: 60px;
+    margin-bottom: 3rem;
+    border: 1px solid transparent;
 }
 
-.masthead-title {
-  margin-top: 0;
-  margin-bottom: 0;
-  color: $gray-4;
+a.masthead-title {
+    float: left;
+    height: 60px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0.938rem 0 0;
+    font-size: 1.375rem; 
+    line-height: 1.2;
+    color: #ff0052;
+    font-weight: bold;
+    letter-spacing: 0.2px;
+    -webkit-font-smoothing: antialiased;
+}
 
-  a {
-    color: inherit;
-  }
-
-  small {
-    font-size: 75%;
+a.masthead-back {
+    float: left;
+    height: 60px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0.938rem 0 0;
+    font-size: 1.375rem; 
+    line-height: 1.2;
+    color: #000;
     font-weight: 400;
-    opacity: .5;
-  }
+    letter-spacing: 0.2px;
 }
+
+/*
+button.masthead-toogle {
+    float: right;
+    padding: 0.563rem 0.625rem;
+    margin: auto;
+    position: absolute;
+    top: 0; bottom: 0; right: 0;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+    -webkit-appearance: button;
+    cursor: pointer;    
+}
+
+button.masthead-toogle .icon-bar {
+    display: block;
+    background-color: #000;
+    width: 23px;
+    height: 3px;
+    border-radius: 1px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+button.masthead-toogle .icon-bar + .icon-bar {
+    margin-top: 3px;
+}
+
+button.masthead-toogle .icon-bar:first-child {
+	width: 12px;
+	margin-left: 11px;
+}
+
+button.masthead-toogle .icon-bar:nth-child(3) {
+	width: 18px;
+	margin-left: 5px;
+}
+
+button.masthead-toogle:hover .icon-bar {
+	width: 23px!important;
+	margin-left: 0!important;
+}
+*/

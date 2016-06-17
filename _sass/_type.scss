@@ -3,11 +3,11 @@
 // Headings, body text, lists, and other misc typographic elements.
 
 h1, h2, h3, h4, h5, h6 {
-  margin-bottom: .5rem;
-  font-weight: 600;
-  line-height: 1.25;
-  color: #313131;
-  text-rendering: optimizeLegibility;
+     margin-bottom: .5rem;
+    font-weight: 600;
+    line-height: 1.25;
+    color: #212121;
+    text-rendering: optimizeLegibility;
 }
 
 h1 {
@@ -30,12 +30,11 @@ h4, h5, h6 {
 }
 
 p {
-  margin-top: 0;
-  margin-bottom: 1rem;
+  margin: auto auto 1.5rem;
 }
 
 strong {
-  color: #303030;
+  color: inherit;
 }
 
 ul, ol, dl {
@@ -112,6 +111,5 @@ a[href^="#fnref:"] {
 // Extend paragraphs with `.lead` for larger introductory text.
 
 .lead {
-  font-size: 1.25rem;
-  font-weight: 300;
+  font-size: 1.313em;
 }

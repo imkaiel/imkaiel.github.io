@@ -1,0 +1,13 @@
+<header class="masthead">
+    <div class="container-fluid">
+    {% if page.title == "Home" %}
+        <a class="masthead-title" href="{{ site.baseurl }}/" title="Home">
+            {{ site.title }}
+        </a>
+        {% else %}
+        <a class="masthead-back" href="{{ site.baseurl }}/" title="Go back">
+            <small>← Back</small>
+        </a>
+        {% endif %}
+    </div>
+</header>
